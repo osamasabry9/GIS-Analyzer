@@ -198,12 +198,12 @@ pnpm dev       # or npm run dev
 
 ---
 
-## 🚀 Deployment
+## 🚀 Deployment & Live Demo
 
-* **Target**: Vercel (static / client-side app)
-* No server secrets required
-* Uses only public OGC/tile endpoints
-* Follows Next.js **App Router** conventions
+- **Live Demo:** [https://gis-analyzer.vercel.app/](https://gis-analyzer.vercel.app/)
+- **Deployment Target:** Vercel as a static, client-only application
+- **No Server Secrets:** The app relies solely on public OGC/tile service endpoints, eliminating the need for backend credentials or secrets
+- **Architecture:** Built with Next.js following the latest **App Router** conventions, ensuring modern routing and optimized performance
 
 ---
 
@@ -228,4 +228,5 @@ pnpm dev       # or npm run dev
 ## 📜 License
 
 MIT — free to use, modify, and distribute.
+
 
